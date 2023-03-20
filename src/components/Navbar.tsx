@@ -11,7 +11,7 @@ const Navbar:React.FC = () => {
         <div className="nav h-full mr-20">
         <nav className="flex gap-5  text-white text-lg font-medium h-full w-full items-center">
             <a href="#" className="hover:text-sky-500 duration-200">About</a>
-            <a href="#" className="hover:text-sky-500 duration-200">Projects</a>
+            <a href="#projects-container" className="hover:text-sky-500 duration-200">Projects</a>
             <a href="#" className="bg-gradient-to-r from-cyan-500 to-blue-500 px-10 py-3 rounded-md">Contact</a>
         </nav>
         </div>
