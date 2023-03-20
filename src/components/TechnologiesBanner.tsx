@@ -13,10 +13,13 @@ export const TechnologiesBanner:React.FC = ({}) => {
   return (
     <>
       <div className="technologies-banner h-auto w-screen grid grid-cols-1 lg:grid-cols-2">
-        <div className="description flex flex-col gap-5  mx-5 items-end justify-center">
+        <div className="description flex flex-col gap-5  mx-5 items-start justify-center">
           <h1 className="font-bold text-5xl text-center mt-5">
             Tech Stack + technologies
           </h1>
+          <h2 className="font-normal text-4xl text-left">
+          For developing big applications I'm primarily using React with Redux and TailwindCSS.
+          </h2>
         </div>
 
         {/* logos technologies */}
