@@ -3,7 +3,7 @@ import React from "react";
 const Navbar:React.FC = () => {
   return(
     <>
-    <div className="navbar w-auto h-20  flex justify-between items-center">
+    <div className="navbar w-auto h-20  flex justify-between items-center bg-[#1d2021]">
         <div className="logo ml-5 lg:ml-20 text-white font-medium  text-sm lg:text-xl  bg-gradient-to-r from-sky-500 to to-indigo-500 px-2 py-3 rounded-md">
             {/* <h2>Daniel Adrian Gendik</h2> */}
         </div>
