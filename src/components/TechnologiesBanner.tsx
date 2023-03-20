@@ -9,59 +9,60 @@ import {
   SiRedux,
 } from "react-icons/si"
 
-export const TechnologiesBanner = ({}) => {
+export const TechnologiesBanner:React.FC = ({}) => {
   return (
     <>
       <div className="technologies-banner h-auto w-screen grid grid-cols-1 lg:grid-cols-2">
         <div className="description flex flex-col gap-5  mx-5 items-end justify-center">
           <h1 className="font-bold text-5xl text-center mt-5">
-            Dev Stack + technologies
+            Tech Stack + technologies
           </h1>
         </div>
+
         {/* logos technologies */}
         <div className="technologies-logos grid grid-cols-2 lg:grid-cols-3 gap-5 mt-10 w-full lg:w-auto">
           <div className="grid-item flex justify-center items-center">
-            <SiHtml5 // src={htmllogo}
-              title={"htmllogo"} // alt="htmllogo"
-              className="h-[80px] w-fit text-orange-600"
+            <SiHtml5 
+              title={"htmllogo"} 
+              className="h-[80px] w-fit text-[#e34c26]"
             />
           </div>
           <div className="grid-item flex justify-center items-center">
-            <SiCss3 // src={csslogo}
-              title={"csslogo"} // alt="csslogo"
-              className="h-[80px] w-fit text-blue-600"
+            <SiCss3 
+              title={"csslogo"} 
+              className="h-[80px] w-fit text-[#264de4]"
             />
           </div>
           <div className="grid-item flex justify-center items-center">
-            <SiTailwindcss // src={tailwindlogo}
-              title={"tailwindlogo"} // alt="tailwindlogo"
+            <SiTailwindcss 
+              title={"tailwindlogo"} 
               className="h-[80px] w-fit text-sky-500"
             />
           </div>
           <div className="grid-item flex justify-center items-center">
-            <SiJavascript // src={jslogo}
-              title={"jslogo"} // alt="jslogo"
+            <SiJavascript 
+              title={"jslogo"}
               className="h-[80px] w-fit text-yellow-300"
             />
           </div>
           <div className="grid-item flex justify-center items-center">
-            <SiReact // src={reactlogo}
-              title={"reactlogo"} // alt="reactlogo"
+            <SiReact
+              title={"reactlogo"} 
               className="h-[80px] w-fit text-[#61DBFB]"
             />
           </div>
           <div className="grid-item flex justify-center items-center">
-            <SiRedux // src={reduxlogo}
-              title={"reduxlogo"} // alt="reduxlogo"
+            <SiRedux 
+              title={"reduxlogo"} 
               className="h-[80px] w-fit text-purple-700"
             />
           </div>
 
           <div className="grid-item flex justify-center items-center">
-            <BsGit className="h-[80px] w-fit text-orange-500" />
+            <BsGit className="h-[80px] w-fit text-[#f34f29]" />
           </div>
           <div className="grid-item flex justify-center items-center">
-            <BsGithub className="h-[80px] w-fit text-white" />
+            <BsGithub className="h-[80px] w-fit text-[#171515]" />
           </div>
         </div>
       </div>

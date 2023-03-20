@@ -1,6 +1,7 @@
 import { TechnologiesBanner } from './TechnologiesBanner';
 import React from "react"
 import Bewerbungsbild from "../assets/images/BewerbungsbildCartoon.png"
+import CV from  "../assets/images/Lebenslauf Daniel Adrian Gendik.pdf"
 
 
 const MainBanner: React.FC = () => {
@@ -11,9 +12,7 @@ const MainBanner: React.FC = () => {
           <h1 className="font-bold text-7xl">Hi, I'm Daniel</h1>
           <h2 className="font-normal text-4xl">
             My name is Daniel Gendik and I'm a 22 year old (Web) Frontend
-            developer
-            <br />
-            from Germany. Scroll down to check out my projects and social media.
+            developer  from Germany. Scroll down to check out my projects and social media.
           </h2>
         </div>
 
@@ -22,15 +21,16 @@ const MainBanner: React.FC = () => {
             <img
               src={Bewerbungsbild}
               alt="picture_of_me"
-              className="rounded-md "
+              className="rounded-md"
             />
           </div>
           <div className="download-ctn flex justify-center">
             <a
-              href="#"
-              className="underline-offset-1 text-blue-600 underline font-bold "
+              href={CV}
+              className="underline-offset-1 text-blue-600 underline font-bold  text-lg"
+              target="_blank"
             >
-              Download CV
+              Checkout my CV
             </a>
           </div>
         </div>
