@@ -1,4 +1,4 @@
-import { TechnologiesBanner } from './TechnologiesBanner';
+import TechnologiesBanner from "./TechnologiesBanner"
 import React from "react"
 import Bewerbungsbild from "../assets/images/BewerbungsbildCartoon.png"
 import CV from  "../assets/images/Lebenslauf Daniel Adrian Gendik.pdf"
@@ -38,7 +38,6 @@ const MainBanner: React.FC = () => {
 
       <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-full"></div>
 
-  <TechnologiesBanner     />
     </div>
   )
 }
