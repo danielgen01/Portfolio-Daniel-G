@@ -11,8 +11,8 @@ const MainBanner: React.FC = () => {
   return (
     <div className="main-banner text-white">
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-center">
-      <div className="description flex flex-col gap-5 mt-52 mx-5 text-left items-start w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-between mt-12 lg:items-center lg:mt-0 mx-5">
+      <div className="description flex flex-col gap-5  text-left items-start">
         <h1 className="font-bold text-7xl">Hi, I'm Daniel</h1>
         <h2 className="font-normal text-4xl">
           My name is Daniel Gendik and I'm a 22 year old (Web) Frontend
@@ -21,9 +21,16 @@ const MainBanner: React.FC = () => {
           from Germany. Scroll down to check out my projects and social media.
         </h2>
         </div>
-        <div className="picture-ctn w-full flex justify-center lg:justify-end">
-          <img src={Bewerbungsbild} alt="picture_of_me" />
+
+        <div className="picture-ctn w-full flex flex-col items-center justify-center ">
+          <div className="image-ctn flex justify-center">
+          <img src={Bewerbungsbild} alt="picture_of_me" className="rounded-md "/>
+          </div>
+          <div className="download-ctn flex justify-center">
+          <a href="#" className="underline-offset-1 text-blue-600 underline font-bold ">Download CV</a>
+          </div>
         </div>
+        
         </div>
 
         <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-full"></div>
