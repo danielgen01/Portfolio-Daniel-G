@@ -6,6 +6,7 @@ import reactlogo from "../assets/images/react-logo.png"
 import tailwindlogo from "../assets/images/tailwind-logo.png"
 import reduxlogo from "../assets/images/redux-logo.png"
 import Bewerbungsbild from "../assets/images/BewerbungsbildCartoon.png"
+import {BsGit, BsGithub} from "react-icons/bs"
 
 const MainBanner: React.FC = () => {
   return (
@@ -57,6 +58,14 @@ const MainBanner: React.FC = () => {
             <div className="grid-item flex justify-center items-center">
             <img src={reduxlogo} alt="" className="h-[80px] w-fit" />
             </div>
+
+            <div className="grid-item flex justify-center items-center">
+            <BsGit className="h-[80px] w-fit" />
+            </div>
+            <div className="grid-item flex justify-center items-center">
+            <BsGithub className="h-[80px] w-fit" />
+            </div>
+
 
           </div>
           <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-full"></div>
