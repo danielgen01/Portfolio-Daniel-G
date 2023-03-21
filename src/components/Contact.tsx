@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
     <>
       <div
         id="contact"
-        className="text-white selection:bg-sky-300 flex flex-col items-center gap-6 w-screen mt-10"
+        className="text-white selection:bg-sky-300 flex flex-col items-center gap-6 w-screen mt-10 h-96"
       >
         <h1 className="text-5xl lg:text-6xl font-bold">Get in touch</h1>
         <h2 className=" text-2xl lg:text-3xl mx-10 lg:mx-72 font-medium ">

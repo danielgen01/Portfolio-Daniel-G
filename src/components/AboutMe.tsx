@@ -5,7 +5,7 @@ const AboutMe: React.FC = () => {
     <>
       <div
         id="aboutme"
-        className="text-white selection:bg-sky-300 flex flex-col items-center gap-6 w-screen mt-10 bg-gray-500/20"
+        className="text-white selection:bg-sky-300 flex flex-col items-center justify-center gap-6 w-screen mt-10 bg-gray-500/20 h-[500px]"
       >
         <h1 className="text-5xl lg:text-6xl font-bold">About me</h1>
         <h2 className=" text-2xl lg:text-3xl mx-10 lg:mx-72 font-medium">
