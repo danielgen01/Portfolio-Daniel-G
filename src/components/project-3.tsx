@@ -4,7 +4,15 @@ import barberscreem from "../assets/images/Barbershop_screen.png"
 export function Project3() {
   return (
     <div
-      className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5">
+      className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5"
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
+      data-aos-anchor-placement="top-center">
       <div className="grid-item-image-container">
         <img src={barberscreem} alt="barberscreen" />
       </div>
