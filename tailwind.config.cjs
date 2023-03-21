@@ -5,7 +5,24 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'menu-slide': 'menu-slide 500ms ease-in-out',
+        
+      },
+
+      keyframes:{
+        'menu-slide': {
+          '0%': {
+            right: '-100%',
+          },
+          '100%': {
+            right: '0%',
+          }
+      }
+    },
+  
+    },
   },
   plugins: [],
 }

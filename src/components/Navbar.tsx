@@ -41,7 +41,8 @@ const Navbar: React.FC<props> = ({
         className="nav-links-background absolute h-screen top-0 z-40 w-screen bg-black/50 "
         style={{ display: isNavBarOpen ? "flex" : "none" }}
       >
-        <div className="nav-links-ctn absolute top-0 right-0 bg-gray-800 h-screen w-2/3 lg:w-1/5 rounded-md">
+        <div className="nav-links-ctn absolute top-0 right-0 bg-gray-800 h-screen w-2/3 lg:w-1/5 rounded-md  animate-menu-slide
+">
           <nav className="flex flex-col gap-10 items-center text-white mt-28 text-4xl">
             <Link
               to="about"
