@@ -5,7 +5,7 @@ import React from "react"
 const ProjectsBanner: React.FC = () => {
   return (
     <div
-      className="projects-container flex flex-col justify-center h-auto w-screen"
+      className="projects-container flex flex-col justify-center h-auto w-screen gap-10"
       id="projects-container"
     >
       <div className="projects-headline">
@@ -14,7 +14,7 @@ const ProjectsBanner: React.FC = () => {
         </h1>
       </div>
 
-     <Project1   />
+     <Project1 />
      <Project2 />
     </div>
   )
