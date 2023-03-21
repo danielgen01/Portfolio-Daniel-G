@@ -17,9 +17,9 @@ export function Project2() {
           <button className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75">
             View Livedemo
           </button>
-          <button className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75">
+          <a href="https://github.com/danielgen01/E-Commerce-with-React-Redux" className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75" target={"_blank"}>
             Sourcecode
-          </button>
+          </a>
         </div>
       </div>
     </div>
