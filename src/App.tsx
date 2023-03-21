@@ -7,8 +7,18 @@ import TechnologiesBanner from "./components/TechnologiesBanner"
 
 function App() {
   const [isNavBarOpen,setIsNavBarOpen] = useState<boolean>(false)
+  const deactivateScroll = () => {
+    if (!isNavBarOpen) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = "auto"
+    }
+  }
+
   const toggleNavBar = () => {
     setIsNavBarOpen(!isNavBarOpen)
+    deactivateScroll()
+
   }
   return (
     <>
