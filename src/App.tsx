@@ -5,6 +5,7 @@ import MainBanner from "./components/MainBanner"
 import ProjectsBanner from "./components/ProjectsBanner"
 import TechnologiesBanner from "./components/TechnologiesBanner"
 import AboutMe from "./components/AboutMe"
+import Contact from "./components/Contact"
 
 function App() {
   const [isNavBarOpen,setIsNavBarOpen] = useState<boolean>(false)
@@ -28,6 +29,7 @@ function App() {
       <TechnologiesBanner     />
       <ProjectsBanner />
       <AboutMe />
+      <Contact />
     </>
   )
 }
