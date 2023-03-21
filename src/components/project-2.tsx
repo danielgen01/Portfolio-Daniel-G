@@ -14,9 +14,9 @@ export function Project2() {
            I styled my app with TailwindCSS.
         </h2>
         <div className="buttons flex gap-5">
-          <button className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75">
+          <a href="https://react-redux-neu.netlify.app" target={"_blank"} className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75">
             View Livedemo
-          </button>
+          </a>
           <a href="https://github.com/danielgen01/E-Commerce-with-React-Redux" className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75" target={"_blank"}>
             Sourcecode
           </a>
