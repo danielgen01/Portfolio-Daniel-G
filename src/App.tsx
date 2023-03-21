@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import MainBanner from "./components/MainBanner"
 import ProjectsBanner from "./components/ProjectsBanner"
 import TechnologiesBanner from "./components/TechnologiesBanner"
+import AboutMe from "./components/AboutMe"
 
 function App() {
   const [isNavBarOpen,setIsNavBarOpen] = useState<boolean>(false)
@@ -25,8 +26,8 @@ function App() {
       <Navbar isNavBarOpen={isNavBarOpen} setIsNavBarOpen={setIsNavBarOpen} toggleNavBar={toggleNavBar}/>
       <MainBanner />
       <TechnologiesBanner     />
-
       <ProjectsBanner />
+      <AboutMe />
     </>
   )
 }

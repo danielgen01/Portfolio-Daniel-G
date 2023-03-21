@@ -45,7 +45,7 @@ const Navbar: React.FC<props> = ({
 ">
           <nav className="flex flex-col gap-10 items-center text-white mt-28 text-4xl">
             <Link
-              to="about"
+              to="aboutme"
               spy={true}
               smooth={true}
               offset={-70}
