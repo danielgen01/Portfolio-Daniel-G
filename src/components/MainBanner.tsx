@@ -27,7 +27,7 @@ const MainBanner: React.FC = () => {
           <div className="download-ctn flex justify-center">
             <a
               href={CV}
-              className="underline-offset-1 text-blue-600 underline font-bold  text-lg"
+              className="underline-offset-1 text-sky-500 underline font-bold  text-lg"
               target="_blank"
             >
               Checkout my CV
