@@ -21,6 +21,8 @@ const AboutMe: React.FC = () => {
           the website using their styled wireframe.
         </h3>
       </div>
+      <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-[99%]"></div>
+
     </>
   )
 }
