@@ -6,9 +6,13 @@ import ProjectsBanner from "./components/ProjectsBanner"
 import TechnologiesBanner from "./components/TechnologiesBanner"
 
 function App() {
+  const [isNavBarOpen,setIsNavBarOpen] = useState<boolean>(false)
+  const toggleNavBar = () => {
+    setIsNavBarOpen(!isNavBarOpen)
+  }
   return (
     <>
-      <Navbar />
+      <Navbar isNavBarOpen={isNavBarOpen} setIsNavBarOpen={setIsNavBarOpen} toggleNavBar={toggleNavBar}/>
       <MainBanner />
       <TechnologiesBanner     />
 
