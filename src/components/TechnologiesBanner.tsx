@@ -70,7 +70,7 @@ import {
         </div>
       </div>
 
-      <div className="sketch h-2 bg-gradient-to-r from-indigo-500 to-sky-500 mt-10 -skew-y-2 w-full"></div>
+      <div className="sketch h-2 bg-gradient-to-r from-indigo-500 to-sky-500 mt-10 -skew-y-2 w-[99%]"></div>
     </>
   )
 }

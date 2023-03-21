@@ -19,7 +19,7 @@ const ProjectsBanner: React.FC = () => {
         <Project2 />
       </div>
 
-      <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-full"></div>
+      <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-[99%]"></div>
     </>
   )
 }
