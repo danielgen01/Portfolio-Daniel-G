@@ -11,17 +11,17 @@ export function Project1() {
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
         <h1 className="font-semibold text-3xl">Netflix Clone landing page</h1>
-        <h2 className="text-2xl text-center lg:mx-20">
+        <h2 className="lg:text-2xl text-lg text-center lg:mx-20">
           I built an clone of the german netflix landing page to prove that I'm
           able to develop prefebrecated designs. I used React to create
           components and Vanilla CSS for the styling. If Chrome throws an error,
           use an other browser. For example Edge or Opera.
         </h2>
-        <div className="buttons flex flex-col lg:flex-row gap-5">
+        <div className="buttons flex flex-col lg:flex-row gap-5 max-w-fit">
           <a
             href="https://famous-banoffee-91ef29.netlify.app"
             target={"_blank"}
-            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2"
+            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
           >
             View Livedemo
             <BsArrowUpRight />
@@ -29,7 +29,7 @@ export function Project1() {
           <a
             href="https://github.com/danielgen01/Netflix-Landing-page-Copy"
             className="bg-gradient-to-r from-indigo-500 to-sky-500
-           px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2"
+           px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
             target={"_blank"}
           >
             Sourcecode

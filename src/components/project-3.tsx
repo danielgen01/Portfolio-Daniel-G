@@ -12,12 +12,12 @@ export function Project3() {
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
         <h1 className="font-semibold text-3xl text-center">Barbershop landing page</h1>
-        <h2 className="text-2xl text-center lg:mx-20">
+        <h2 className="lg:text-2xl text-lg text-center lg:mx-20">
           I built a barbershop landing page (non interactive). I created this
           page based on a figma design. I developed this project with
           React,TypeScript and TailwindCSS.
         </h2>
-        <div className="buttons flex flex-col lg:flex-row gap-5">
+        <div className="buttons flex flex-col lg:flex-row gap-5 max-w-fit">
           <a
             href="https://barbershoplandingpagebydaniel.netlify.app/"
             target={"_blank"}
@@ -28,7 +28,7 @@ export function Project3() {
           </a>
           <a
             href="https://github.com/danielgen01/Barbershop_landing_page"
-            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2"
+            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
             target={"_blank"}
           >
             Sourcecode
@@ -36,7 +36,7 @@ export function Project3() {
           </a>
           <a
             href="https://www.figma.com/community/file/1198056259246028851/Barbershop-Screen-UI"
-            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2"
+            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
             target={"_blank"}
           >
             Figma Design

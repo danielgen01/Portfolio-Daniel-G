@@ -9,7 +9,7 @@ const MainBanner: React.FC = () => {
     <div className="main-banner text-white selection:bg-sky-300">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-between mt-12 lg:items-center lg:mt-0">
         <div className="description flex flex-col gap-5  text-center lg:text-left items-start">
-          <h1 className="font-bold text-6xl">Hi, I'm Daniel</h1>
+          <h1 className="font-bold  text-2xl lg:text-6xl">Hi, I'm Daniel</h1>
           <h2 className="font-normal text-xl lg:text-6xl">
             My name is Daniel Gendik and I'm a 22 year old (Web) Frontend
             developer  from Germany. Scroll down to check out my projects and social media.

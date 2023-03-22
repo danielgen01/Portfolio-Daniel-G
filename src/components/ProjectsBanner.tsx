@@ -11,7 +11,7 @@ const ProjectsBanner: React.FC = () => {
         id="projects-container"
       >
         <div className="projects-headline">
-          <h1 className="font-bold text-5xl text-center mt-5 text-white">
+          <h1 className="font-bold text-3xl lg:text-5xl text-center mt-5 text-white">
             Projects
           </h1>
         </div>

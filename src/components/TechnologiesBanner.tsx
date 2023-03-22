@@ -14,10 +14,10 @@ import {
     <>
       <div className="technologies-banner h-auto w-screen grid grid-cols-1 lg:grid-cols-2 gap-5 selection:bg-sky-300 text-white">
         <div className="description flex flex-col gap-5  mx-5 items-start justify-center lg:order-2">
-          <h1 className="font-bold text-5xl text-center mt-5">
+          <h1 className="font-bold text-2xl lg:text-5xl text-center mt-5">
             Tech Stack + technologies
           </h1>
-          <h2 className="font-normal text-4xl text-left">
+          <h2 className="font-normal text-xl lg:text-4xl text-left">
           For developing big applications I'm primarily using React with Redux and TailwindCSS.
           </h2>
         </div>
