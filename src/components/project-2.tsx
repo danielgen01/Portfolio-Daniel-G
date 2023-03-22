@@ -20,14 +20,14 @@ export function Project2() {
           <a
             href="https://e-commercestore-react-redux.netlify.app/"
             target={"_blank"}
-            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
+            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
           >
             View Livedemo
             <BsArrowUpRight />
           </a>
           <a
             href="https://github.com/danielgen01/E-Commerce-with-React-Redux"
-            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2"
+            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2"
             target={"_blank"}
           >
             Sourcecode
