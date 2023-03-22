@@ -45,18 +45,6 @@ const Navbar: React.FC<props> = ({
 ">
           <nav className="flex flex-col gap-10 items-center text-white mt-28 text-4xl">
             <Link
-              to="aboutme"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              activeClass="active"
-              className="hover:text-sky-500 duration-200 cursor-pointer"
-              onClick={toggleNavBar}
-            >
-              About
-            </Link>
-            <Link
               to="projects-container"
               spy={true}
               smooth={true}
@@ -67,6 +55,18 @@ const Navbar: React.FC<props> = ({
               onClick={toggleNavBar}
             >
               Projects
+            </Link>
+            <Link
+              to="aboutme"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              activeClass="active"
+              className="hover:text-sky-500 duration-200 cursor-pointer"
+              onClick={toggleNavBar}
+            >
+              About me
             </Link>
             <Link
               to="contact"
