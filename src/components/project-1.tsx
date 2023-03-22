@@ -24,7 +24,7 @@ export function Project1() {
         <h2 className="text-2xl text-center lg:mx-20">
           I built an clone of the german netflix landing page to prove that I'm able to develop
           prefebrecated designs. I used React to create components and
-          Vanilla CSS for the styling.
+          Vanilla CSS for the styling. If Chrome throws an error, use an other browser. For example Edge or Opera.
         </h2>
         <div className="buttons flex gap-5">
           <a href="https://famous-banoffee-91ef29.netlify.app" target={"_blank"} className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2">
