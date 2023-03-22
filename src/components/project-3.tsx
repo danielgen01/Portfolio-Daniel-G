@@ -23,7 +23,7 @@ export function Project3() {
           <a
             href="https://barbershoplandingpagebydaniel.netlify.app/"
             target={"_blank"}
-            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 w-full"
+            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 w-full justify-center"
           >
             View Livedemo
             <BsArrowUpRight />
@@ -37,7 +37,7 @@ export function Project3() {
           </a>
           <a
             href="https://www.figma.com/community/file/1198056259246028851/Barbershop-Screen-UI"
-            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 w-full"
+            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 w-full justify-center"
             target={"_blank"}
           >
             Figma Design
