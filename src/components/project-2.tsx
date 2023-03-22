@@ -18,18 +18,18 @@ export function Project2() {
           to build components and Redux for state management. I styled my app
           with TailwindCSS.
         </h2>
-        <div className="buttons flex flex-col lg:flex-row gap-5">
+        <div className="buttons grid grid-cols-1 lg:grid-cols-2 gap-5">
           <a
             href="https://e-commercestore-react-redux.netlify.app/"
             target={"_blank"}
-            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
+            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 w-full"
           >
             View Livedemo
             <BsArrowUpRight />
           </a>
           <a
             href="https://github.com/danielgen01/E-Commerce-with-React-Redux"
-            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2"
+            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2 w-full"
             target={"_blank"}
           >
             <BsGithub className="h-[20px] w-fit text-[#171515] max-w-fit" />

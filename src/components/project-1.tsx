@@ -19,11 +19,11 @@ export function Project1() {
           components and Vanilla CSS for the styling. If Chrome throws an error,
           use an other browser. For example Edge or Opera.
         </h2>
-        <div className="buttons flex flex-col lg:flex-row gap-5 max-w-fit">
+        <div className="buttons grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-fit">
           <a
             href="https://famous-banoffee-91ef29.netlify.app"
             target={"_blank"}
-            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
+            className="bg-gradient-to-r from-sky-500 to-indigo-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 w-full"
           >
             View Livedemo
             <BsArrowUpRight />
@@ -31,7 +31,7 @@ export function Project1() {
           <a
             href="https://github.com/danielgen01/Netflix-Landing-page-Copy"
             className="bg-gradient-to-r from-indigo-500 to-sky-500
-           px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2"
+           px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2 w-full"
             target={"_blank"}
           >
             <BsGithub className="h-[20px] w-fit text-[#171515]" />
