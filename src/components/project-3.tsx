@@ -11,7 +11,9 @@ export function Project3() {
         <img src={barberscreem} alt="barberscreen" />
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
-        <h1 className="font-semibold text-3xl text-center">Barbershop landing page</h1>
+        <h1 className="font-semibold text-3xl text-center">
+          Barbershop landing page
+        </h1>
         <h2 className="lg:text-2xl text-lg text-center lg:mx-20">
           I built a barbershop landing page (non interactive). I created this
           page based on a figma design. I developed this project with
@@ -28,10 +30,9 @@ export function Project3() {
           </a>
           <a
             href="https://github.com/danielgen01/Barbershop_landing_page"
-            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 max-w-fit"
+            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2 max-w-fit"
             target={"_blank"}
           >
-            Sourcecode
             <BsGithub className="h-[20px] w-fit text-[#171515]" />
           </a>
           <a

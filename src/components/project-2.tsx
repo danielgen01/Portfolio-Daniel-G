@@ -10,13 +10,15 @@ export function Project2() {
         <img src={Ecommercescreen} alt="E-Commerce-Screenshot" />
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
-        <h1 className="font-semibold text-3xl text-center">E-Commerce App Multipage</h1>
+        <h1 className="font-semibold text-3xl text-center">
+          E-Commerce App Multipage
+        </h1>
         <h2 className="lg:text-2xl text-lg lg:mx-20">
           I built an E-Commerce store from scratch. I used React with Typescript
           to build components and Redux for state management. I styled my app
           with TailwindCSS.
         </h2>
-        <div className="buttons flex flex-col lg:flex-row gap-5 max-w-fit">
+        <div className="buttons flex flex-col lg:flex-row gap-5">
           <a
             href="https://e-commercestore-react-redux.netlify.app/"
             target={"_blank"}
@@ -27,10 +29,9 @@ export function Project2() {
           </a>
           <a
             href="https://github.com/danielgen01/E-Commerce-with-React-Redux"
-            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2"
+            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2"
             target={"_blank"}
           >
-            Sourcecode
             <BsGithub className="h-[20px] w-fit text-[#171515] max-w-fit" />
           </a>
         </div>
