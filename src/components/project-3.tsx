@@ -11,7 +11,7 @@ export function Project3() {
         <img src={barberscreem} alt="barberscreen" />
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
-        <h1 className="font-semibold text-3xl">Barbershop landing page</h1>
+        <h1 className="font-semibold text-3xl text-center">Barbershop landing page</h1>
         <h2 className="text-2xl text-center lg:mx-20">
           I built a barbershop landing page (non interactive). I created this
           page based on a figma design. I developed this project with

@@ -10,7 +10,7 @@ export function Project2() {
         <img src={Ecommercescreen} alt="E-Commerce-Screenshot" />
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
-        <h1 className="font-semibold text-3xl">E-Commerce App Multipage</h1>
+        <h1 className="font-semibold text-3xl text-center">E-Commerce App Multipage</h1>
         <h2 className="text-2xl text-center lg:mx-20">
           I built an E-Commerce store from scratch. I used React with Typescript
           to build components and Redux for state management. I styled my app
