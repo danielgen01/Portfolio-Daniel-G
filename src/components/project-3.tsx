@@ -30,7 +30,7 @@ export function Project3() {
           </a>
           <a
             href="https://github.com/danielgen01/Barbershop_landing_page"
-            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2 max-w-fit"
+            className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2 "
             target={"_blank"}
           >
             <BsGithub className="h-[20px] w-fit text-[#171515]" />
