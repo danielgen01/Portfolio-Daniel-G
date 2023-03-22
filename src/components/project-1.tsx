@@ -1,5 +1,5 @@
 import React from "react"
-import Kanbanscreen from "../assets/images/Kanbanscreen.png"
+import netflixscreen from "../assets/images/netflixclone_screen.png"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
 
@@ -17,21 +17,21 @@ export function Project1() {
       data-aos-anchor-placement="top-center"
     >
       <div className="grid-item-image-container">
-        <img src={Kanbanscreen} alt="Kanbanscreen" />
+        <img src={netflixscreen} alt="Kanbanscreen" />
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
-        <h1 className="font-semibold text-3xl">Kanbanboard App</h1>
+        <h1 className="font-semibold text-3xl">Netflix Clone landing page</h1>
         <h2 className="text-2xl text-center lg:mx-20">
-          I built an Kanbanboard for tracking my workflow and to get an overview
-          of my tasks. I used React with TypeScript to create components and
-          Redux for state management. My app was styled with TailwindCSS.
+          I built an clone of the german netflix landing page to prove that I'm able to develop
+          prefebrecated designs. I used React to create components and
+          Vanilla CSS for the styling.
         </h2>
         <div className="buttons flex gap-5">
-          <button className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2">
+          <a href="https://famous-banoffee-91ef29.netlify.app" target={"_blank"} className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2">
             View Livedemo
             <BsArrowUpRight/>
-          </button>
-          <a href="https://github.com/danielgen01/KanbanBoardClean" className="bg-gradient-to-r from-indigo-500 to-sky-500
+          </a>
+          <a href="https://github.com/danielgen01/Netflix-Landing-page-Copy" className="bg-gradient-to-r from-indigo-500 to-sky-500
            px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2" target={"_blank"}>
             Sourcecode
             <BsGithub className="h-[20px] w-fit text-[#171515]" />
