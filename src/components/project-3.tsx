@@ -2,21 +2,11 @@ import React from "react"
 import barberscreem from "../assets/images/Barbershop_screen.png"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
-import {FaFigma} from "react-icons/fa"
+import { FaFigma } from "react-icons/fa"
 
 export function Project3() {
   return (
-    <div
-      className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5"
-      data-aos="fade-left"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="500"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="true"
-      data-aos-anchor-placement="top-center"
-    >
+    <div className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5">
       <div className="grid-item-image-container">
         <img src={barberscreem} alt="barberscreen" />
       </div>
@@ -27,7 +17,7 @@ export function Project3() {
           page based on a figma design. I developed this project with
           React,TypeScript and TailwindCSS.
         </h2>
-        <div className="buttons flex gap-5">
+        <div className="buttons flex flex-col lg:flex-row gap-5">
           <a
             href="https://barbershoplandingpagebydaniel.netlify.app/"
             target={"_blank"}

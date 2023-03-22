@@ -5,17 +5,7 @@ import { BsArrowUpRight } from "react-icons/bs"
 
 export function Project2() {
   return (
-    <div
-      className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5"
-      data-aos="fade-right"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="500"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="true"
-      data-aos-anchor-placement="top-center"
-    >
+    <div className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5">
       <div className="grid-item-image-container lg:order-2">
         <img src={Ecommercescreen} alt="E-Commerce-Screenshot" />
       </div>
@@ -26,15 +16,14 @@ export function Project2() {
           to build components and Redux for state management. I styled my app
           with TailwindCSS.
         </h2>
-        <div className="buttons flex gap-5">
+        <div className="buttons flex flex-col lg:flex-row gap-5">
           <a
             href="https://e-commercestore-react-redux.netlify.app/"
             target={"_blank"}
             className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2"
           >
             View Livedemo
-            <BsArrowUpRight/>
-
+            <BsArrowUpRight />
           </a>
           <a
             href="https://github.com/danielgen01/E-Commerce-with-React-Redux"
