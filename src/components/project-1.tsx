@@ -1,5 +1,7 @@
 import React from "react"
 import Kanbanscreen from "../assets/images/Kanbanscreen.png"
+import { BsGithub } from "react-icons/bs"
+import { BsArrowUpRight } from "react-icons/bs"
 
 export function Project1() {
   return (
@@ -25,11 +27,15 @@ export function Project1() {
           Redux for state management. My app was styled with TailwindCSS.
         </h2>
         <div className="buttons flex gap-5">
-          <button className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75">
+          <button className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2">
             View Livedemo
+            <BsArrowUpRight/>
           </button>
-          <a href="https://github.com/danielgen01/KanbanBoardClean" className="bg-gradient-to-r from-indigo-500 to-sky-500 px-5 py-2 rounded-md font-medium hover:opacity-75" target={"_blank"}>
+          <a href="https://github.com/danielgen01/KanbanBoardClean" className="bg-gradient-to-r from-indigo-500 to-sky-500
+           px-5 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2" target={"_blank"}>
             Sourcecode
+            <BsGithub className="h-[20px] w-fit text-[#171515]" />
+
           </a>
         </div>
       </div>
