@@ -18,7 +18,7 @@ export function Project1() {
         </h2>
         <div className="buttons grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-fit">
           <a
-            href="https://famous-banoffee-91ef29.netlify.app"
+            href="https://kanbandanielg.netlify.app/"
             target={"_blank"}
             className="bg-gradient-to-r from-sky-500 to-indigo-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 w-full justify-center"
           >
@@ -26,7 +26,7 @@ export function Project1() {
             <BsArrowUpRight />
           </a>
           <a
-            href="https://github.com/danielgen01/Netflix-Landing-page-Copy"
+            href="https://github.com/danielgen01/KanbanBoardClean"
             className="bg-gradient-to-r from-indigo-500 to-sky-500
            px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2 w-full"
             target={"_blank"}
