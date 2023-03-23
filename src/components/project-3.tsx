@@ -1,5 +1,5 @@
 import React from "react"
-import barberscreem from "../assets/images/Barbershop_screen.png"
+import barberscreem from "../assets/images/Barbershop_screen.webp"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
 import { FaFigma } from "react-icons/fa"

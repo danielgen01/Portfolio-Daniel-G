@@ -1,5 +1,5 @@
 import React from "react"
-import Ecommercescreen from "../assets/images/E-Commerce Screen.png"
+import Ecommercescreen from "../assets/images/E-Commerce-Screen.webp"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
 

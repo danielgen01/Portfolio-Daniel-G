@@ -1,6 +1,6 @@
 import TechnologiesBanner from "./TechnologiesBanner"
 import React from "react"
-import Bewerbungsbild from "../assets/images/BewerbungsbildCartoon.png"
+import Bewerbungsbild from "../assets/images/BewerbungsbildCartoon.webp"
 import CV from  "../assets/images/Lebenslauf Daniel Adrian Gendik.pdf"
 import { BsGit, BsGithub,BsLinkedin } from "react-icons/bs"
 

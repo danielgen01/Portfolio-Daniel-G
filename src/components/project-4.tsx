@@ -1,5 +1,5 @@
 import React from "react"
-import starbucksscreen from "../assets/images/starbucks_screen.png"
+import starbucksscreen from "../assets/images/starbucks_screen_2.webp"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
 
