@@ -16,7 +16,7 @@ const Navbar: React.FC<props> = ({
 }) => {
   return (
     <>
-      <div className="navbar w-full top-0 h-20  flex justify-end items-center bg-[#1d2021] fixed">
+      <div className="navbar w-full top-0 h-20  flex justify-end items-center bg-[#1d2021] fixed z-50">
         <div className="h-full mr-10 flex items-center">
           {!isNavBarOpen && (
             <>
