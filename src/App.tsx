@@ -23,7 +23,7 @@ function App() {
 
   }
   return (
-    <div className="APP w-screen ">
+    <div className="APP w-screen">
       <Navbar isNavBarOpen={isNavBarOpen} setIsNavBarOpen={setIsNavBarOpen} toggleNavBar={toggleNavBar}/>
       <MainBanner />
       <TechnologiesBanner     />
