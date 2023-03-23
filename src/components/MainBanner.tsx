@@ -6,7 +6,7 @@ import CV from  "../assets/images/Lebenslauf Daniel Adrian Gendik.pdf"
 
 const MainBanner: React.FC = () => {
   return (
-    <div className="main-banner text-white selection:bg-sky-300">
+    <div className="main-banner text-white selection:bg-sky-300"id="main-banner">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-between mt-12 lg:items-center lg:mt-0">
         <div className="description flex flex-col gap-5  text-center lg:text-left lg:items-start items-center">
           <h1 className="font-bold text-2xl lg:text-6xl">Hi, I'm Daniel</h1>
