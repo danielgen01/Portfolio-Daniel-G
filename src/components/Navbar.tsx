@@ -16,7 +16,7 @@ const Navbar: React.FC<props> = ({
 }) => {
   return (
     <>
-      <div className="navbar w-full top-0 h-20  flex justify-end items-center bg-[#1d2021] fixed z-50">
+      <div className="navbar w-full top-0 h-20  flex justify-end items-center bg-[#1d2021] fixed z-40">
         <div className="h-full mr-10 flex items-center">
           {!isNavBarOpen && (
             <>
@@ -39,7 +39,7 @@ const Navbar: React.FC<props> = ({
 "
         >
           
-          <nav className="flex flex-col gap-10 items-center text-white mt-28 text-4xl">
+          <nav className="flex flex-col gap-10 items-center text-white mt-28 text-4xl z-50">
           <AiOutlineArrowRight
             className="text-white text-5xl cursor-pointer z-50 "
             onClick={toggleNavBar}
