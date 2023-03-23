@@ -26,24 +26,24 @@ const Navbar: React.FC<props> = ({
               />
             </>
           )}
-          {isNavBarOpen && (
-            <>
-              <AiOutlineArrowRight
-                className="text-white text-5xl cursor-pointer z-50"
-                onClick={toggleNavBar}
-              />
-            </>
-          )}
+          
         </div>{" "}
       </div>
 
       <div
-        className="nav-links-background absolute h-screen top-0 z-40 w-screen bg-black/50 "
+        className="nav-links-background fixed h-screen top-0 z-40 w-screen bg-black/50 "
         style={{ display: isNavBarOpen ? "flex" : "none" }}
       >
-        <div className="nav-links-ctn fixed top-0 right-0 bg-gray-800 h-screen w-2/3 lg:w-1/5 rounded-md  animate-menu-slide
-">
+        <div
+          className="nav-links-ctn fixed top-0 right-0 bg-gray-800 h-screen w-2/3 lg:w-1/5 rounded-md  animate-menu-slide
+"
+        >
+          
           <nav className="flex flex-col gap-10 items-center text-white mt-28 text-4xl">
+          <AiOutlineArrowRight
+            className="text-white text-5xl cursor-pointer z-50 "
+            onClick={toggleNavBar}
+          />
             <Link
               to="projects-container"
               spy={true}
