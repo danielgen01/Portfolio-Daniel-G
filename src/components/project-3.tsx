@@ -3,6 +3,7 @@ import barberscreem from "../assets/images/Barbershop_screen.webp"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
 import { FaFigma } from "react-icons/fa"
+import { SiTailwindcss, SiReact, SiTypescript, SiRedux } from "react-icons/si"
 
 export function Project3() {
   return (
@@ -19,6 +20,11 @@ export function Project3() {
           page based on a figma design. I developed this project with
           React,TypeScript and TailwindCSS.
         </h2>
+        <div className="used-technologies-list flex flex-row gap-10 text-5xl">
+          <SiReact className="text-[#61DBFB]" />
+          <SiTypescript className=" text-[#007acc]" />
+          <SiTailwindcss className="text-sky-500" />
+        </div>
         <div className="buttons grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-fit">
           <a
             href="https://barbershoplandingpagebydaniel.netlify.app/"

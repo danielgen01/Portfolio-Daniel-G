@@ -2,6 +2,7 @@ import React from "react"
 import Ecommercescreen from "../assets/images/E-Commerce-Screen.webp"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
+import { SiTailwindcss, SiReact, SiTypescript, SiRedux } from "react-icons/si"
 
 export function Project2() {
   return (
@@ -18,6 +19,12 @@ export function Project2() {
           to build components and Redux for state management. I styled my app
           with TailwindCSS.
         </h2>
+        <div className="used-technologies-list flex flex-row gap-10 text-5xl">
+          <SiReact className="text-[#61DBFB]" />
+          <SiTypescript className=" text-[#007acc]" />
+          <SiRedux className="text-purple-700" />
+          <SiTailwindcss className="text-sky-500" />
+        </div>
         <div className="buttons grid grid-cols-1 lg:grid-cols-2 gap-5">
           <a
             href="https://e-commercestore-react-redux.netlify.app/"

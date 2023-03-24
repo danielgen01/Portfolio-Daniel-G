@@ -2,6 +2,7 @@ import React from "react"
 import starbucksscreen from "../assets/images/starbucks_screen_2.webp"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
+import { SiTailwindcss, SiReact, SiTypescript, SiRedux } from "react-icons/si"
 
 export function Project4() {
   return (
@@ -14,10 +15,15 @@ export function Project4() {
           Starbucks Clone landing page
         </h1>
         <h2 className="lg:text-2xl text-lg text-center lg:mx-20">
-          I built an clone of the german starbucks landing page to prove that I'm
-          able to develop prefebrecated designs. I used React with TypeScript to create components and TailwindCSS
-          for the styling.
+          I built an clone of the german starbucks landing page to prove that
+          I'm able to develop prefebrecated designs. I used React with
+          TypeScript to create components and TailwindCSS for the styling.
         </h2>
+        <div className="used-technologies-list flex flex-row gap-10 text-5xl">
+          <SiReact className="text-[#61DBFB]" />
+          <SiTypescript className=" text-[#007acc]" />
+          <SiTailwindcss className="text-sky-500" />
+        </div>
         <div className="buttons grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-fit">
           <a
             href="https://clone-starbucks-daniel-gen.netlify.app/"
