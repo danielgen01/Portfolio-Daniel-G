@@ -20,7 +20,7 @@ export function Project3() {
           page based on a figma design. I developed this project with
           React,TypeScript and TailwindCSS.
         </h2>
-        <div className="used-technologies-list flex flex-row gap-10 text-5xl">
+        <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
           <SiReact className="text-[#61DBFB]" />
           <SiTypescript className=" text-[#007acc]" />
           <SiTailwindcss className="text-sky-500" />

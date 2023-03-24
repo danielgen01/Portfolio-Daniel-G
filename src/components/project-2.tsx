@@ -19,7 +19,7 @@ export function Project2() {
           to build components and Redux for state management. I styled my app
           with TailwindCSS.
         </h2>
-        <div className="used-technologies-list flex flex-row gap-10 text-5xl">
+        <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
           <SiReact className="text-[#61DBFB]" />
           <SiTypescript className=" text-[#007acc]" />
           <SiRedux className="text-purple-700" />

@@ -19,7 +19,7 @@ export function Project4() {
           I'm able to develop prefebrecated designs. I used React with
           TypeScript to create components and TailwindCSS for the styling.
         </h2>
-        <div className="used-technologies-list flex flex-row gap-10 text-5xl">
+        <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl" >
           <SiReact className="text-[#61DBFB]" />
           <SiTypescript className=" text-[#007acc]" />
           <SiTailwindcss className="text-sky-500" />
