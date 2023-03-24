@@ -7,6 +7,7 @@ import {
   SiHtml5,
   SiCss3,
   SiRedux,
+  SiTypescript
 } from "react-icons/si"
 
  const TechnologiesBanner:React.FC = ({}) => {
@@ -46,6 +47,12 @@ import {
             <SiJavascript 
               title={"jslogo"}
               className="h-[80px] w-fit text-yellow-300"
+            />
+          </div>
+          <div className="grid-item flex justify-center items-center">
+            <SiTypescript 
+              title={"tslogo"}
+              className="h-[80px] w-fit text-[#007acc]"
             />
           </div>
           <div className="grid-item flex justify-center items-center">
