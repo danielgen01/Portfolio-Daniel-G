@@ -2,6 +2,8 @@ import TechnologiesBanner from "./TechnologiesBanner"
 import React from "react"
 import Bewerbungsbild from "../assets/images/BewerbungsbildCartoon.webp"
 import CV from  "../assets/images/Lebenslauf Daniel Adrian Gendik.pdf"
+import JsCertificate from "../assets/images/JS Zertifikat.pdf"
+import JestCertificate from "../assets/images/Jest,RTL Zertifikat.pdf"
 import { BsGit, BsGithub,BsLinkedin } from "react-icons/bs"
 
 
@@ -26,13 +28,27 @@ const MainBanner: React.FC = () => {
               className="rounded-md"
             />
           </div>
-          <div className="download-ctn flex justify-center">
+          <div className="download-ctn flex flex-col items-center justify-center gap-5">
             <a
               href={CV}
               className="underline-offset-1 text-sky-500 underline font-bold  text-lg"
               target="_blank"
             >
               Checkout my CV
+            </a>
+            <a
+              href={JsCertificate}
+              className="underline-offset-1 text-sky-500 underline font-bold  text-lg"
+              target="_blank"
+            >
+              JavaScript Certificate
+            </a>
+            <a
+              href={JestCertificate}
+              className="underline-offset-1 text-sky-500 underline font-bold  text-lg"
+              target="_blank"
+            >
+              React Testing Library Certificate
             </a>
           </div>
         </div>
