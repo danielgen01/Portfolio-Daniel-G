@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState,useEffect } from "react"
 import "./App.css"
 import Navbar from "./components/Navbar"
 import MainBanner from "./components/MainBanner"
@@ -12,6 +12,7 @@ import { Link, animateScroll as scroll } from "react-scroll"
 
 function App() {
   const [isNavBarOpen,setIsNavBarOpen] = useState<boolean>(false)
+  const [isArrowVisible,setIsArrowVisible] = useState<boolean>(false)
   const deactivateScroll = () => {
     if (!isNavBarOpen) {
       document.body.style.overflow = "hidden"
@@ -25,6 +26,22 @@ function App() {
     deactivateScroll()
 
   }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 50) {
+        setIsArrowVisible(true);
+      } else {
+        setIsArrowVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="APP w-screen">
       <Navbar isNavBarOpen={isNavBarOpen} setIsNavBarOpen={setIsNavBarOpen} toggleNavBar={toggleNavBar}/>
@@ -42,7 +59,7 @@ function App() {
               activeClass="active"
               className="hover:text-sky-500 duration-200 cursor-pointer"
               
-            >
+           style={{display: isArrowVisible? "flex" :"none"}} >
       <BsArrowUpCircle className="fixed text-sky-500 text-5xl bottom-10 right-10"/></Link>
     </div>
   )
