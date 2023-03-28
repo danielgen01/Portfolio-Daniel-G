@@ -13,7 +13,7 @@ export function Project3() {
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
         <h1 className="font-semibold text-3xl text-center">
-          Barbershop landing page
+          Barbershop landing page (static)
         </h1>
         <h2 className="lg:text-2xl text-lg text-center lg:mx-20">
           I built a barbershop landing page (non interactive). I created this

@@ -8,11 +8,11 @@ export function Project4() {
   return (
     <div className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5">
       <div className="grid-item-image-container lg:order-2">
-        <img src={starbucksscreen} alt="Kanbanscreen" />
+        <img src={starbucksscreen} alt="starbucksscreen" />
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
         <h1 className="font-semibold text-3xl text-center">
-          Starbucks Clone landing page
+          Starbucks Clone landing page (static)
         </h1>
         <h2 className="lg:text-2xl text-lg text-center lg:mx-20">
           I built an clone of the german starbucks landing page to prove that

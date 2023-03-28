@@ -17,7 +17,7 @@ const ProjectsBanner: React.FC = () => {
           </h1>
         </div>
 
-        {/* <Project1 /> */}
+        <Project1 />
         <Project2 />
         <Project3 />
         <Project4 />
