@@ -18,7 +18,7 @@ const AboutMe: React.FC = () => {
           things about developing. Admittedly I'm not the best designer, but my
           passion is to develop web applications and solve code problems - not
           to design it. I'll better leave this part to the designers and develop
-          the website using their styled wireframe.
+          the website using their design.
         </h3>
       </div>
       <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-[99%] z-40"></div>
