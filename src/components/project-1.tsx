@@ -17,7 +17,8 @@ export function Project1() {
           Property page (static)
         </h1>
         <h2 className="lg:text-2xl text-lg lg:mx-20">
-          I built a static landing page of a property website. This project is based on a figma design
+          I built a static landing page of a property website. This project is based on a figma design. I styled my app with TailwindCSS 
+          and uses React to create web components.
         </h2>
         <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
           <SiReact className="text-[#61DBFB]" />
