@@ -72,7 +72,7 @@ import {
             <BsGit className="h-[80px] w-fit text-[#f34f29]" />
           </div>
           <div className="grid-item flex justify-center items-center">
-            <BsGithub className="h-[80px] w-fit text-[#171515]" />
+            <BsGithub className="h-[80px] w-fit text-gray-300" />
           </div>
         </div>
       </div>
