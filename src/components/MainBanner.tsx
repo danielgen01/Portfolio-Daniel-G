@@ -21,7 +21,7 @@ const MainBanner: React.FC = () => {
         </div>
 
         <div className="picture-ctn w-full flex flex-col items-center justify-center col-span-4">
-          <div className="image-ctn flex justify-center">
+          <div className="image-ctn flex justify-center h-2/3">
             <img
               src={Bewerbungsbild}
               alt="picture_of_me"
