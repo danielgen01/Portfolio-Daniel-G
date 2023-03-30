@@ -10,8 +10,8 @@ import { BsGit, BsGithub,BsLinkedin } from "react-icons/bs"
 
 const MainBanner: React.FC = () => {
   return (
-    <div className="main-banner text-white selection:bg-sky-300"id="main-banner">
-      <div className="grid grid-cols-1 lg:grid-cols-9 justify-between mt-12 lg:items-center lg:mt-0 mx-10">
+    <div className="main-banner text-white selection:bg-sky-300" id="main-banner">
+      <div className="grid grid-cols-1 lg:grid-cols-9 justify-between mt-12 lg:items-center lg:mt-0 mx-10 py-10">
         <div className="description flex flex-col gap-5  text-center lg:text-left lg:items-start items-center col-span-4">
           <h1 className="font-bold text-2xl lg:text-6xl">Hi, I'm Daniel</h1>
           <h2 className="font-normal text-xl lg:text-4xl">
