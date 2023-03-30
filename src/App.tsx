@@ -41,7 +41,7 @@ function App() {
     }
   }, [])
   return (
-    <div className="APP w-screen bg-[rgba(0,0,5)]">
+    <div className="APP w-screen  bg-gradient-to-tr from-black/90 to-black">
       <Navbar
         isNavBarOpen={isNavBarOpen}
         setIsNavBarOpen={setIsNavBarOpen}
