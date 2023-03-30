@@ -2,7 +2,7 @@ import React from "react"
 import { Link, animateScroll as scroll } from "react-scroll"
 import { HiMenuAlt3 } from "react-icons/hi"
 import { AiOutlineArrowRight } from "react-icons/ai"
-import {BiCodeAlt} from "react-icons/bi"
+import { BiCodeAlt } from "react-icons/bi"
 
 type props = {
   isNavBarOpen: boolean
@@ -18,8 +18,8 @@ const Navbar: React.FC<props> = ({
   return (
     <>
       <div className="navbar w-full top-0 h-14 lg:h-20 flex justify-between items-center bg-[#1d2021] fixed z-40">
-        <div className="deco-icon">
-        <BiCodeAlt className=" text-5xl text-sky-500"/>
+        <div className="deco-icon ml-5">
+          <BiCodeAlt className=" text-5xl text-sky-500 " />
         </div>
         <div className="h-full mr-10 flex items-center menu-icon-ctn">
           {!isNavBarOpen && (
@@ -30,7 +30,6 @@ const Navbar: React.FC<props> = ({
               />
             </>
           )}
-          
         </div>{" "}
       </div>
 
@@ -42,12 +41,11 @@ const Navbar: React.FC<props> = ({
           className="nav-links-ctn fixed top-0 right-0 bg-gray-800 h-screen w-2/3 lg:w-1/5 rounded-md  animate-menu-slide
 "
         >
-          
           <nav className="flex flex-col gap-10 items-center text-white mt-28 text-4xl z-50">
-          <AiOutlineArrowRight
-            className="text-white text-5xl cursor-pointer z-50 "
-            onClick={toggleNavBar}
-          />
+            <AiOutlineArrowRight
+              className="text-white text-5xl cursor-pointer z-50 "
+              onClick={toggleNavBar}
+            />
             <Link
               to="projects-container"
               spy={true}
