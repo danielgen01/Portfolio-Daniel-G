@@ -2,6 +2,7 @@ import React from "react"
 import { Link, animateScroll as scroll } from "react-scroll"
 import { HiMenuAlt3 } from "react-icons/hi"
 import { AiOutlineArrowRight } from "react-icons/ai"
+import {BiCodeAlt} from "react-icons/bi"
 
 type props = {
   isNavBarOpen: boolean
@@ -16,8 +17,11 @@ const Navbar: React.FC<props> = ({
 }) => {
   return (
     <>
-      <div className="navbar w-full top-0 h-14 lg:h-20 flex justify-end items-center bg-[#1d2021] fixed z-40">
-        <div className="h-full mr-10 flex items-center">
+      <div className="navbar w-full top-0 h-14 lg:h-20 flex justify-between items-center bg-[#1d2021] fixed z-40">
+        <div className="deco-icon">
+        <BiCodeAlt className=" text-5xl text-sky-500"/>
+        </div>
+        <div className="h-full mr-10 flex items-center menu-icon-ctn">
           {!isNavBarOpen && (
             <>
               <HiMenuAlt3
