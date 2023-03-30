@@ -16,12 +16,12 @@ const Navbar: React.FC<props> = ({
 }) => {
   return (
     <>
-      <div className="navbar w-full top-0 h-20  flex justify-end items-center bg-[#1d2021] fixed z-40">
+      <div className="navbar w-full top-0 h-14 lg:h-20 flex justify-end items-center bg-[#1d2021] fixed z-40">
         <div className="h-full mr-10 flex items-center">
           {!isNavBarOpen && (
             <>
               <HiMenuAlt3
-                className="text-white text-5xl cursor-pointer"
+                className="text-white text-4xl lg:text-5xl cursor-pointer"
                 onClick={toggleNavBar}
               />
             </>
