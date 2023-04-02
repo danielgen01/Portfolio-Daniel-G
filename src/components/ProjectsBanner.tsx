@@ -3,6 +3,7 @@ import { Project2 } from "./project-2"
 import { Project3 } from "./project-3"
 import React from "react"
 import { Project4 } from "./project-4"
+import { Project5 } from "./project-5"
 
 const ProjectsBanner: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const ProjectsBanner: React.FC = () => {
         <Project2 />
         <Project3 />
         <Project4 />
+        <Project5 />
       </div>
 
       <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-[99%] z-40"></div>
