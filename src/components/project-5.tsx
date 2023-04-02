@@ -24,7 +24,7 @@ export function Project5() {
           <SiTypescript className=" text-[#007acc]" />
           <SiTailwindcss className="text-sky-500" />
         </div>
-        <div className="buttons grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-fit">
+        <div className="buttons grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-fit">
           <a
             href="https://pokedex-by-daniel-g.netlify.app/"
             target={"_blank"}
