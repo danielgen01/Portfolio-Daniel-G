@@ -42,7 +42,7 @@ export function Project6() {
             <BsGithub className="h-[20px] w-fit text-[#171515]" />
           </a>
           <a
-            href="https://www.figma.com/file/WHoxum3VITgWKve3lYrh5m/Agency-Website-UI-(Community)?node-id=0-1&t=aTs2yHuXxeiLYE6E-0"
+            href="https://www.figma.com/community/file/1189248642594649231/Agency-Website-UI"
             className="bg-gradient-to-r from-indigo-500 to-sky-500 px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center gap-2 w-full justify-center"
             target={"_blank"}
           >
