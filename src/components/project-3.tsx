@@ -1,5 +1,5 @@
 import React from "react"
-import gamescreen from "../assets/images/rock_paper_scissors.png"
+import gamescreen from "../assets/images/rock_paper_scissors_lizzard_spock.png"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
 import { FaFigma } from "react-icons/fa"
@@ -13,10 +13,10 @@ export function Project3() {
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
         <h1 className="font-semibold text-3xl text-center">
-          Rock - Paper - Scissors Game minimal
+          Rock - Paper - Scissors - Lizard - Spock Game minimal
         </h1>
         <h2 className="lg:text-2xl text-lg text-center lg:mx-20">
-          I built a rock paper scissors game. I developed this project with
+          I built the extended version of the  rock paper scissors game. I developed this project with
           React,TypeScript and TailwindCSS.
         </h2>
         <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
