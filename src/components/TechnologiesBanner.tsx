@@ -13,7 +13,7 @@ import {
  const TechnologiesBanner:React.FC = ({}) => {
   return (
     <>
-      <div className="technologies-banner h-auto w-screen grid grid-cols-1 lg:grid-cols-2 gap-5 selection:bg-sky-300 text-white">
+      <section className="technologies-banner h-auto w-screen grid grid-cols-1 lg:grid-cols-2 gap-5 selection:bg-sky-300 text-white">
         <div className="description flex flex-col gap-5  mx-5 items-start justify-center lg:order-2">
           <h1 className="font-bold text-2xl lg:text-5xl text-center mt-5">
             Tech Stack + technologies
@@ -75,7 +75,7 @@ import {
             <BsGithub className="h-[80px] w-fit text-gray-300" />
           </div>
         </div>
-      </div>
+      </section>
 
       <div className="sketch h-2 bg-gradient-to-r from-indigo-500 to-sky-500 mt-10 -skew-y-2 w-[99%]"></div>
     </>

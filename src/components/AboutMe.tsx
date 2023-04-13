@@ -3,7 +3,7 @@ import React from "react"
 const AboutMe: React.FC = () => {
   return (
     <>
-      <div
+      <article
         id="aboutme"
         className="text-white selection:bg-sky-300 flex flex-col items-center justify-center gap-6 w-screen mt-10 bg-gray-500/20 h-[700px]"
       >
@@ -20,7 +20,7 @@ const AboutMe: React.FC = () => {
           to design it. I'll better leave this part to the designers and develop
           the website using their design.
         </h3>
-      </div>
+      </article>
       <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-[99%] z-40"></div>
 
     </>

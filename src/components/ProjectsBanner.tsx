@@ -9,7 +9,7 @@ import { Project6 } from "./project-6"
 const ProjectsBanner: React.FC = () => {
   return (
     <>
-      <div
+      <section
         className="projects-container flex flex-col justify-center h-auto w-screen gap-10"
         id="projects-container"
       >
@@ -25,7 +25,7 @@ const ProjectsBanner: React.FC = () => {
         <Project4 />
         <Project5 />
         <Project6 />
-      </div>
+      </section>
 
       <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-[99%] z-40"></div>
     </>

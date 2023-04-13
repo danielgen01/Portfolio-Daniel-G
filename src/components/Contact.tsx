@@ -3,7 +3,7 @@ import React from "react"
 const Contact: React.FC = () => {
   return (
     <>
-      <div
+      <section
         id="contact"
         className="text-white selection:bg-sky-300 flex flex-col items-center justify-center gap-6 w-screen mt-10 h-96"
       >
@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
             MailMe
           </a>
         </h2>
-      </div>
+      </section>
     </>
   )
 }

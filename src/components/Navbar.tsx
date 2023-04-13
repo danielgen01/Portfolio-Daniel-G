@@ -17,7 +17,7 @@ const Navbar: React.FC<props> = ({
 }) => {
   return (
     <>
-      <div className="navbar w-full top-0 h-14 lg:h-20 flex justify-between items-center bg-[#1d2021] fixed z-40">
+      <nav className="navbar w-full top-0 h-14 lg:h-20 flex justify-between items-center bg-[#1d2021] fixed z-40">
         <div className="deco-icon ml-5">
           <BiCodeAlt className=" text-5xl text-sky-500 " />
         </div>
@@ -31,7 +31,7 @@ const Navbar: React.FC<props> = ({
             </>
           )}
         </div>{" "}
-      </div>
+      </nav>
 
       <div
         className="nav-links-background fixed h-screen top-0 z-40 w-screen bg-black/50 "
