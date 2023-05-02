@@ -9,7 +9,7 @@ import { SiTailwindcss, SiReact, SiTypescript, SiRedux } from "react-icons/si"
 export function Project6() {
   return (
     <div className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5">
-      <div className="grid-item-image-container order-2">
+      <div className="grid-item-image-container xl:order-2">
         <img src={agencyscreen} alt="agency screenshot" />
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
