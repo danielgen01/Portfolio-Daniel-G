@@ -1,10 +1,11 @@
-import { Project1 } from "./project-1"
-import { Project2 } from "./project-2"
-import { Project3 } from "./project-3"
+import { PropertyProject } from "./property_project"
+import { EcommerceProject } from "./ECommerce_project"
+import { Game_Project } from "./game_project"
 import React from "react"
-import { Project4 } from "./project-4"
-import { Project5 } from "./project-5"
-import { Project6 } from "./project-6"
+import { StarbucksProject } from "./starbucks_project"
+import { PokeProject } from "./poke_project"
+import { AgencyProject } from "./agency_project"
+import { KanbanProject } from "./kanban_project"
 
 const ProjectsBanner: React.FC = () => {
   return (
@@ -18,13 +19,14 @@ const ProjectsBanner: React.FC = () => {
             Projects
           </h1>
         </div>
+        <KanbanProject />
+        <PropertyProject />
 
-        <Project3 />
-        <Project2 />
-        <Project1 />
-        <Project4 />
-        <Project5 />
-        <Project6 />
+        <EcommerceProject />
+        <Game_Project />
+        <StarbucksProject />
+        {/* <PokeProject /> */}
+        <AgencyProject />
       </section>
 
       <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-[99%] z-40"></div>

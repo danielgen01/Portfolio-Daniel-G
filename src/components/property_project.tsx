@@ -2,11 +2,10 @@ import React from "react"
 import propertyscreen from "../assets/images/property_screen.png"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
-import {FaFigma} from "react-icons/fa"
+import { FaFigma } from "react-icons/fa"
 import { SiTailwindcss, SiReact, SiTypescript, SiRedux } from "react-icons/si"
 
-
-export function Project1() {
+export function PropertyProject() {
   return (
     <div className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5">
       <div className="grid-item-image-container">
@@ -17,8 +16,9 @@ export function Project1() {
           Property page (static)
         </h1>
         <h2 className="lg:text-2xl text-lg lg:mx-20">
-          I built a static landing page of a property website. This project is based on a figma design. I styled my app with TailwindCSS 
-          and uses React to create web components.
+          I built a static landing page of a property website. This project is
+          based on a figma design. I styled my app with TailwindCSS and uses
+          React to create web components.
         </h2>
         <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
           <SiReact className="text-[#61DBFB]" />
