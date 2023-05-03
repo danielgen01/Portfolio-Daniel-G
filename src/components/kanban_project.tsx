@@ -1,8 +1,8 @@
 import React from "react"
-import kanbanscreen from "../assets/images/kanbanscreen_new.png"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
 import { SiTailwindcss, SiReact, SiTypescript, SiRedux } from "react-icons/si"
+import kanbanscreen from "../assets/images/kanbanscreen.png"
 
 export function KanbanProject() {
   return (
