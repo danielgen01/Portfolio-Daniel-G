@@ -2,9 +2,10 @@ import React from "react"
 import { BsGithub } from "react-icons/bs"
 import { BsArrowUpRight } from "react-icons/bs"
 import { SiTailwindcss, SiReact, SiTypescript, SiRedux } from "react-icons/si"
-import kanbanscreen from "../assets/images/kanbanscreen.png"
+import kanbanscreen from "../assets/images/preview.jpg"
 
 export function KanbanProject() {
+
   return (
     <div className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5">
       <div className="grid-item-image-container lg:order-2">
