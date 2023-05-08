@@ -6,6 +6,7 @@ import { StarbucksProject } from "./starbucks_project"
 import { PokeProject } from "./poke_project"
 import { AgencyProject } from "./agency_project"
 import { KanbanProject } from "./kanban_project"
+import { InvoiceProject } from "./Invoice_project"
 
 const ProjectsBanner: React.FC = () => {
   return (
@@ -20,13 +21,15 @@ const ProjectsBanner: React.FC = () => {
           </h1>
         </div>
         <KanbanProject />
-        <PropertyProject />
+       
+        <InvoiceProject/>
 
         <EcommerceProject />
         <Game_Project />
         <StarbucksProject />
         {/* <PokeProject /> */}
         <AgencyProject />
+        <PropertyProject />
       </section>
 
       <div className="sketch h-2 bg-gradient-to-r from-sky-500 to-indigo-500 mt-10 -skew-y-2 w-[99%] z-40"></div>
